@@ -1,0 +1,20 @@
+.Person {
+	width: 60%;
+	margin: 16px auto;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 3px #ccc;
+	padding: 16px;
+	text-align: center;
+}
+
+/*
+* For global define the class use the key word ":global" as the prefix
+* e.g. :global .Person {.....};
+* Thus you could use className="Person" anywhere in your app
+*/
+
+@media (min-width: 500px) {
+	.Person {
+		width: 450px;
+	}
+}
